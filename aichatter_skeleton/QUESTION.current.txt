@@ -1,0 +1,21 @@
+# lines starting with # are stripped out (not sent)
+print seconds since midnight
+```
+>>>> insert-here: cat main.go
+#>>>> insert-here: cat main2.go | whatever it gets executed in bash subshell
+```
+
+>>>> response-save-append-to-file: other.go
+
+
+#################################################################33
+# lines starting with # are stripped out (not sent)
+#
+#>>>> insert-here: cat main2.go | whatever it gets executed in bash subshell
+#
+#>>>> response-save-append-to-file: other.go
+#
+## Trick to overwrite file
+#>>>> insert-here: echo "" > other.go
+#>>>> response-save-append-to-file: other.go
+
